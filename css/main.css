@@ -1,0 +1,81 @@
+body{
+    background-color: #F7ECDE;
+}
+a{
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color: white;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    position: relative;
+
+}
+
+
+h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: #FEC260;
+    inset: 0;
+    top: 70%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+h1:hover{
+    cursor: pointer;
+}
+h1:hover::after{
+
+    height: 65%;
+    top: 35%;
+    
+
+
+}
+
+.main{
+    border-bottom: dotted 2px black ;
+
+}
+
+.inputes{
+    border-bottom: dotted 2px black ;
+
+}
+table{
+    padding: .5rem .5rem;
+}
+ tr{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+   
+} 
+th{
+    padding: 15px;
+    padding-left: 20px;
+}
+td{
+    padding: 15px;
+    padding-left: 25px;
+}
+.myForm 
+ {
+
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    color: transparent;
+
+}
+
+/* dialog{
+    position: relative;
+    top: -80%;
+    z-index: 9;
+} */
